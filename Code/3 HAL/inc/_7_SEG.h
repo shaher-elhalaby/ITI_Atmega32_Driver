@@ -15,22 +15,23 @@
 /*Functon Prototypes *******************************************/
 /*
 * Description : This function is used to initialize the 7 seqment
-* Parameters  : 
+* Parameters  : uint8_t
 *               
 * Return      : void
 */
-void _7seq_voidInit();
+
+void _7seq_voidInit(uint8_t Copy_u8Port);
+
 
 /*Functon Prototypes *******************************************/
 /*
 * Description : This function is used to initialize the 7 seqment
-* Parameters  : 
+* Parameters  : uint8_t , uint8_t 
 *               
 * Return      : void
 */
-uint8_t _7seq_voidInit(uint8_t 	Copy_u8Port ,  uint8_t Copy_u8Mode);
 
-uint8_t _7seq_voidWrite(uint8_t 	Copy_u8Port , uint8_t Copy_u8Pin , uint8_t Copy_u8Mode);
+void _7seq_u8Write(uint8_t 	Copy_u8Port , uint8_t Copy_u8Number)
 
 
 #endif
